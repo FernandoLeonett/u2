@@ -1,0 +1,55 @@
+:root{
+--colorNaranja: orangered;
+}
+
+body{
+    padding-top: 60px;
+}
+
+.fondo {
+    background-color: var(--colorNaranja);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li a{
+    display: block;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    text-decoration: none;
+    color: #fff;
+}
+nav ul li a:hover{
+    background-color:#fff;
+    color: var(--colorNaranja);
+}
+h1{
+    color: var(--colorNaranja);
+    text-align: center;
+}
+
+strong{
+    color: var(--colorNaranja);
+}
+
+section:last-child{
+    border-top: 5px solid var(--colorNaranja);
+    padding: 10px 0;
+}
+input[type=submit]{
+background-color: var(--colorNaranja);
+color: #fff;
+border: none;
+cursor: pointer;
+}
+input[type=submit]:hover{
+background-color: rgb(182, 51, 3);
+color: #fff;
+box-shadow: none;
+}
+
